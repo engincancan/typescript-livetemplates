@@ -188,4 +188,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="ifne" value="if (!_.isEmpty($PARAM$)) {&#10;    $END$&#10;}" description="if underscore not empty" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
