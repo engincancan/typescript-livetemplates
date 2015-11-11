@@ -75,6 +75,8 @@ setter block.
 ####ter
 ternary operator.
 
+####ifne
+if is not empty control with lodash
 
 
 
